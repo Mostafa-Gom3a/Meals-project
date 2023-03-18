@@ -1,0 +1,56 @@
+/* global  */
+body{overflow: hidden;}
+.pointer{
+    cursor: pointer;
+    
+}
+
+/* start loding section */
+#loading{
+    z-index: 9999;
+}
+/* start nav section */
+
+#nav-bar{
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    /* background-color: aqua; */
+    
+    
+}
+#nav-bar i{
+    cursor: pointer;
+}
+#nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+#nav-bar li{
+    padding-block: .2rem;
+}
+
+#nav-bar img{
+    width: 3rem;
+}
+#nav-bar .nav-footer{
+    width: 15rem;
+}
+
+/* End Nav section */
+/* start Home section */
+.img-content .content-hover{
+    left: 0;
+    right: 0;
+    top:110%;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, .6);
+    transition: all .5s;
+}
+.img-content:hover .content-hover{
+    top: 0%
+}
+/* End Home section */
+
